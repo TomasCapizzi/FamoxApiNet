@@ -1,0 +1,6 @@
+@Famox_HostAddress = http://localhost:5001
+
+GET {{Famox_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
