@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\FamoxApiBussines\FamoxApiBussines.csproj" />
     <ProjectReference Include="..\FamoxApiEntities\FamoxApiEntities.csproj" />
   </ItemGroup>
