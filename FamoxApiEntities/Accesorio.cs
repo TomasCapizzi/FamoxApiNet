@@ -12,7 +12,7 @@ namespace FamoxApiEntities
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public string Img {  get; set; }
-        public List<ModeloAccesorio> Modelos { get; set; }
+        //public List<ModeloAccesorio> Modelos { get; set; }
         public bool Accesorio_ {  get; set; }
         public string Manual { get; set; }
         public bool Gases {  get; set; }

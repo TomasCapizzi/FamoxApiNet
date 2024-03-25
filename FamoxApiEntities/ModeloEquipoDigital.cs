@@ -13,7 +13,8 @@ namespace FamoxApiEntities
         public string Uso { get; set; }
         public string Origen { get; set; }
         public string Img { get; set; }
-        public List<string> Modulos { get; set; }
+        public string Modulos { get; set; }
+        //public List<string> Modulos { get; set; }
         public string Codigo { get; set; }
 
 

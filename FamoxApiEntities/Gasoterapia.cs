@@ -18,14 +18,15 @@ namespace FamoxApiEntities
         public bool Conexion { get; set; }
         public bool Gas { get; set; }
         public bool Modelos { get; set; }
-        public List<Rango> Rangos { get; set; }
+        public bool Rangos { get; set; }
+        //public List<Rango> Rangos { get; set; }
         public bool Gasoterapia_ {  get; set; }
-        public List<string> Conectores { get; set; }
-        public List<string> Gases_ {  get; set; }
+        public string Conectores { get; set; }
+        public string Gases_ { get; set; }
+        //public List<string> Conectores { get; set; }
+        //public List<string> Gases_ {  get; set; }
         public int Orden {  get; set; }
-        public List<ModeloGasoterapia> Modelos_ {  get; set; }
+        //public List<ModeloGasoterapia> Modelos_ {  get; set; }
 
-
-        public Gasoterapia() { }
     }
 }
